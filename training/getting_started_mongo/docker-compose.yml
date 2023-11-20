@@ -25,7 +25,7 @@ services:
       - mongo-server
   jupyter:
     image: jupyter/datascience-notebook:latest
-    container_name: jupyter
+    container_name: jupyter_mongo
     ports:
       - 8888:8888
     volumes:
